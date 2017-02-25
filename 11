@@ -1,0 +1,15 @@
+<html>
+  <head>
+     <script type="text/javascript">
+      var baz=(function(a,b){
+                 var c=a*b;
+                 alert(c);
+                 return c;
+              })(10,2);
+         document.getElementById("one").value=c;     
+     </script>
+  </head>
+  <body style="border:1px solid green;color:red;">
+     <div>the simple test for the <span id="one">first</span> time</div>
+  </body>
+</html>
